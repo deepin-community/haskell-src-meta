@@ -1,3 +1,27 @@
+0.8.11
+- Support for GHC 9.4 (by Matt Parsons)
+
+0.8.10
+- Support for GHC 9.4 alpha (by Matt Parsons)
+
+0.8.9
+- Add `toExtension` and `fromExtension` to convert between HSE and TH language extensions (by Konstantin Ivanov)
+
+0.8.8
+- Implement toDec for AnnPragma (by Matt Torrence)
+- Add support for OverloadedLabels (by funketh)
+- Fix order of promoted type tuples in resulting TH (by Alexander V. Nikolaev)
+
+0.8.7.1
+- Build on GHC 9.2
+- Drop support for GHC < 8.2
+
+0.8.7:
+- Compatibility with template-haskell shipped with GHC 9.0
+
+0.8.6:
+- Add TypeApplications to default extensions
+
 0.8.5:
 - Compatibility with template-haskell shipped with GHC 8.10
 
